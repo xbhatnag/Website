@@ -1,0 +1,58 @@
+	  blockquote{
+		  margin: 20px 0;
+		  padding-left: 1.5rem;
+		  border-left: 5px solid #FFC107; /* Just change the color value and that's it*/
+		}
+		
+		.blinking-cursor {
+			  -webkit-animation: 1s blink step-end infinite;
+			  -moz-animation: 1s blink step-end infinite;
+			  -ms-animation: 1s blink step-end infinite;
+			  -o-animation: 1s blink step-end infinite;
+			  animation: 1s blink step-end infinite;
+			}
+
+			@keyframes "blink" {
+			  from, to {
+				color: transparent;
+			  }
+			  50% {
+				color: white;
+			  }
+			}
+
+			@-moz-keyframes blink {
+			  from, to {
+				color: transparent;
+			  }
+			  50% {
+				color: white;
+			  }
+			}
+
+			@-webkit-keyframes "blink" {
+			  from, to {
+				color: transparent;
+			  }
+			  50% {
+				color: white;
+			  }
+			}
+
+			@-ms-keyframes "blink" {
+			  from, to {
+				color: transparent;
+			  }
+			  50% {
+				color: white;
+			  }
+			}
+
+			@-o-keyframes "blink" {
+			  from, to {
+				color: transparent;
+			  }
+			  50% {
+				color: white;
+			  }
+			}
