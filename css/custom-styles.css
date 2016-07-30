@@ -3,6 +3,37 @@
 		  padding-left: 1.5rem;
 		  border-left: 5px solid #FFC107; /* Just change the color value and that's it*/
 		}
+
+		.multichip {
+		    line-height: 300%;
+		}
+
+		.phone {
+			position:fixed;
+			top: 15%;
+    		right: 10%;
+    		width: 20%;
+		}
+
+
+		.screen {
+			position:absolute;
+			z-index: 998;
+			margin-top: 16%;
+			margin-left: 4%;
+			margin-right: 4%;
+			height: 200px;
+			overflow: scroll;
+		}
+
+		.phone-frame {
+			position: absolute;
+    		-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    		filter: url(#drop-shadow);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    		filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    		z-index: 997;
+  		}
 		
 		.heart {
 			  -webkit-animation: 0.5s beat infinite alternate;
