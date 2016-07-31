@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+	  <!--Import Custom Styles-->
+	  <link type="text/css" rel="stylesheet" href="css/custom-styles.css"/>
+	  
+	  <!--Import jQuery before materialize.js-->	 
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	  <!-- Compiled and minified CSS -->
+  	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+	  <!-- Compiled and minified JavaScript -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <title>Xyan Bhatnagar - TextNow</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script>
+		var options = [
+		  {
+		    selector: '#learnt-here', 
+		    offset: 0, 
+		    callback: function() {
+		    	$('.carousel').carousel('next');
+		    }
+		  }
+		];
+
+  		Materialize.scrollFire(options);
+
+  		$(document).ready(function(){
+      		$('.carousel.carousel-slider').carousel(
+      			{
+      				full_width: true,
+      				no_wrap: true
+      			});
+    	});
+    </script>
+
+    </head>
+
+    <body class="grey darken-3">
+    <font face="roboto-thin">
+	    <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		  
+	    <div style="position:fixed; z-index:998; bottom: 40px; right: 40px;">
+	      <a href="./index.html" class="btn-floating btn-large waves-effect waves-light red">
+	      <i class="material-icons">home</i>
+	      </a>
+	    </div>
+
+	    <div class="phone hide-on-med-and-down">
+			<img src="img/nexus5.png" width="100%" class="phone-frame" id="phone-frame">
+			<div class="screen carousel carousel-slider" style="width: 93%">
+		    	<a class="carousel-item"><img src="img/screen1.jpg" class="screen-inner"></a>
+		    	<a class="carousel-item"><img src="img/screen2.jpg" class="screen-inner"></a>
+		    </div>
+		</div>
+		  
+		<div class="row">
+	      <div class="col s12 m10 push-m1 l6 push-l1">
+	        <div class="card-panel green hoverable">
+	          <span class="white-text">
+	        		  <h4>At TextNow, I ...</h4>
+	              <blockquote>Rewrote the HTTP Stack for the application</blockquote>
+	              <blockquote>Implemented In-app Premium Subscriptions from Google Play, boosting revenue by <font face="roboto">15%</font></blockquote>
+	              <blockquote>Enabled realtime A/B testing and predictive analysis for our marketing team</blockquote>
+	              <blockquote>Rewrote the Facebook Login and Sharing Mechanism within our app</blockquote>
+	              <blockquote>Implemented Email and Username Autocomplete on Signup</blockquote>
+	              <blockquote>Reverse engineered our app to find external libraries that were abusing location permissions</blockquote>
+	        		  <blockquote>Reduced TextNow's battery consumption by <font face="roboto">26%</font> on Android</blockquote>
+	              <blockquote>Addressed several crashes, bringing down the daily crash average by <font face="roboto">12%</font></blockquote>
+	              <blockquote>Incorporated new advertisers into our app, further increasing daily CPM (Click Per Minute) by <font face="roboto">15%</font></blockquote>
+	              <blockquote>Removed outdated code from our application, reducing code bloat by <font face="roboto">12%</font></blockquote>
+	              <blockquote>Created documentation and reports using the battery analysis tool '<font face="roboto">Battery Historian</font>'</blockquote>
+	          </span>
+	        </div>
+	      </div>
+	    </div>
+
+	    <br>
+		<br>
+		<br>
+
+	    <div class="row">
+	      <div class="col s12 m10 push-m1 l6 push-l1">
+	        <div class="card-panel purple hoverable">
+	          <span class="white-text">
+	            <h4>Learnt here<span class="blinking-cursor">_</span></h4>
+	            <font face="roboto">
+	            <div class="multichip">
+	              <div class="chip">JIRA</div>
+	              <div class="chip">Confluence</div>
+	              <div class="chip">Git</div>
+	              <div class="chip">Bash</div>
+	              <div class="chip">Advanced Android Debugging</div>
+	              <div class="chip">Ad SDKs</div>
+	              <div class="chip">Battery Historian</div>
+	              <div class="chip">App Lifecycle</div>
+	              <div class="chip">Slack</div>
+	              <div class="chip">Stock Market</div>
+	            </div>
+	            </font>
+	            <br>and several more tricks!<br id="learnt-here">
+	          </span>
+	        </div>
+	      </div>
+	    </div>
+
+
+	   <br>
+		<br>
+		<br>
+
+		</font>
+    </body>
+  </html>

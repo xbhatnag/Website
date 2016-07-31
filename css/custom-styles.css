@@ -4,13 +4,15 @@
 		  border-left: 5px solid #FFC107; /* Just change the color value and that's it*/
 		}
 
+		$primary-color: color("materialize-blue", "lighten-2") !default;
+
 		.multichip {
 		    line-height: 300%;
 		}
 
 		.phone {
 			position:fixed;
-			top: 15%;
+			top: 14%;
     		right: 10%;
     		width: 20%;
 		}
@@ -18,12 +20,9 @@
 
 		.screen {
 			position:absolute;
-			z-index: 998;
-			margin-top: 16%;
-			margin-left: 4%;
-			margin-right: 4%;
-			height: 200px;
-			overflow: scroll;
+			margin-top: 15%;
+			margin-left: 3.5%;
+			margin-right: 3.5%;
 		}
 
 		.phone-frame {
@@ -32,7 +31,6 @@
     		filter: url(#drop-shadow);
             -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     		filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    		z-index: 997;
   		}
 		
 		.heart {
@@ -43,9 +41,9 @@
 			  animation: 0.5s beat infinite alternate;
 		}
 		
-			@keyframes beat{
-				to { transform: scale(0.8); }
-			}
+		@keyframes beat{
+			to { transform: scale(0.8); }
+		}
 		
 		.blinking-cursor {
 			  -webkit-animation: 1s blink step-end infinite;
