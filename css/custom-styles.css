@@ -25,6 +25,14 @@
 			margin-right: 3.5%;
 		}
 
+		.screen-inner {
+			pointer-events: none;
+			-ms-user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			user-select: none;    
+		}
+
 		.phone-frame {
 			position: absolute;
     		-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));

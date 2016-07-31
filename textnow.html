@@ -26,16 +26,23 @@
 		var options = [
 		  {
 		    selector: '#learnt-here', 
-		    offset: 0, 
+		    offset: 50, 
 		    callback: function() {
-		    	$('.carousel').carousel('next');
+		    	$('.carousel').carousel('set',1);
 		    }
 		  },
 		  {
-		    selector: '#test', 
-		    offset: 0, 
+		    selector: '#reco', 
+		    offset: 50, 
 		    callback: function() {
-		    	$('.carousel').carousel('next');
+		    	$('.carousel').carousel('set',2);
+		    }
+		  },
+		  {
+		    selector: '#docs', 
+		    offset: 50, 
+		    callback: function() {
+		    	$('.carousel').carousel('set',3);
 		    }
 		  }
 		];
@@ -142,7 +149,46 @@
 	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
 	            	I have enjoyed working with XYZ. It has been fun having him around the office.
 	            	<br>
-	            	<br id="test">
+	            	<br>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br id="reco">
+	          </span>
+	        </div>
+	      </div>
+	    </div>
+
+	    <br>
+		<br>
+		<br>
+
+		<div class="row">
+	      <div class="col s12 m10 push-m1 l6 push-l1">
+	        <div class="card-panel red hoverable">
+	          <span class="white-text">
+	        		<h4><font face="roboto-thin">Documentation</font></h4>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br id="docs">
 	          </span>
 	        </div>
 	      </div>
