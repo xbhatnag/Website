@@ -30,6 +30,13 @@
 		    callback: function() {
 		    	$('.carousel').carousel('next');
 		    }
+		  },
+		  {
+		    selector: '#test', 
+		    offset: 0, 
+		    callback: function() {
+		    	$('.carousel').carousel('next');
+		    }
 		  }
 		];
 
@@ -47,8 +54,9 @@
     </head>
 
     <body class="grey darken-3">
-    <font face="roboto-thin">
+    <font face="roboto-light">
 	    <br>
+		<br>
 		<br>
 		<br>
 		<br>
@@ -65,6 +73,10 @@
 			<div class="screen carousel carousel-slider" style="width: 93%">
 		    	<a class="carousel-item"><img src="img/screen1.jpg" class="screen-inner"></a>
 		    	<a class="carousel-item"><img src="img/screen2.jpg" class="screen-inner"></a>
+		    	<a class="carousel-item"><img src="img/screen3.jpg" class="screen-inner"></a>
+		    	<a class="carousel-item"><img src="img/screen4.jpg" class="screen-inner"></a>
+		    	<a class="carousel-item"><img src="img/screen5.jpg" class="screen-inner"></a>
+		    	<a class="carousel-item"><img src="img/screen6.jpg" class="screen-inner"></a>
 		    </div>
 		</div>
 		  
@@ -72,18 +84,17 @@
 	      <div class="col s12 m10 push-m1 l6 push-l1">
 	        <div class="card-panel green hoverable">
 	          <span class="white-text">
-	        		  <h4>At TextNow, I ...</h4>
-	              <blockquote>Rewrote the HTTP Stack for the application</blockquote>
-	              <blockquote>Implemented In-app Premium Subscriptions from Google Play, boosting revenue by <font face="roboto">15%</font></blockquote>
-	              <blockquote>Enabled realtime A/B testing and predictive analysis for our marketing team</blockquote>
-	              <blockquote>Rewrote the Facebook Login and Sharing Mechanism within our app</blockquote>
-	              <blockquote>Implemented Email and Username Autocomplete on Signup</blockquote>
-	              <blockquote>Reverse engineered our app to find external libraries that were abusing location permissions</blockquote>
-	        		  <blockquote>Reduced TextNow's battery consumption by <font face="roboto">26%</font> on Android</blockquote>
-	              <blockquote>Addressed several crashes, bringing down the daily crash average by <font face="roboto">12%</font></blockquote>
-	              <blockquote>Incorporated new advertisers into our app, further increasing daily CPM (Click Per Minute) by <font face="roboto">15%</font></blockquote>
-	              <blockquote>Removed outdated code from our application, reducing code bloat by <font face="roboto">12%</font></blockquote>
-	              <blockquote>Created documentation and reports using the battery analysis tool '<font face="roboto">Battery Historian</font>'</blockquote>
+	        		<h4><font face="roboto-thin">At TextNow, I ...</font></h4>
+	            	<blockquote>Rewrote the HTTP Stack for the application</blockquote>
+	            	<blockquote>Implemented In-app Premium Subscriptions from Google Play, boosting revenue by <font face="roboto">X%</font></blockquote>
+	            	<blockquote>Enabled realtime A/B testing and predictive analysis for our marketing team</blockquote>
+	            	<blockquote>Rewrote the Facebook Login and Sharing Mechanism within our app</blockquote>
+	            	<blockquote>Implemented Email and Username Autocomplete on Signup</blockquote>
+	        		<blockquote>Reduced TextNow's battery consumption by <font face="roboto">X%</font> on Android</blockquote>
+	            	<blockquote>Addressed several crashes, bringing down the daily crash average by <font face="roboto">X%</font></blockquote>
+	            	<blockquote>Incorporated new advertisers into our app, increasing daily CPM (Click Per Minute) by <font face="roboto">X%</font></blockquote>
+	            	<blockquote>Removed outdated code from our application, reducing code bloat by <font face="roboto">X%</font></blockquote>
+	            	<blockquote>Created documentation and reports using the battery analysis tool '<font face="roboto">Battery Historian</font>'</blockquote>
 	          </span>
 	        </div>
 	      </div>
@@ -97,7 +108,7 @@
 	      <div class="col s12 m10 push-m1 l6 push-l1">
 	        <div class="card-panel purple hoverable">
 	          <span class="white-text">
-	            <h4>Learnt here<span class="blinking-cursor">_</span></h4>
+	            <h4><font face="roboto-thin">Learnt here<span class="blinking-cursor">_</span></font></h4>
 	            <font face="roboto">
 	            <div class="multichip">
 	              <div class="chip">JIRA</div>
@@ -118,11 +129,29 @@
 	      </div>
 	    </div>
 
-
-	   <br>
+	    <br>
 		<br>
 		<br>
 
-		</font>
+		<div class="row">
+	      <div class="col s12 m10 push-m1 l6 push-l1">
+	        <div class="card-panel blue hoverable">
+	          <span class="white-text">
+	        		<h4><font face="roboto-thin">Recommendations</font></h4>
+	            	Bruce Wayne
+	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
+	            	I have enjoyed working with XYZ. It has been fun having him around the office.
+	            	<br>
+	            	<br id="test">
+	          </span>
+	        </div>
+	      </div>
+	    </div>
+
+	    <br>
+		<br>
+		<br>
+
+	</font>
     </body>
   </html>
