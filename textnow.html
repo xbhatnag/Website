@@ -3,6 +3,8 @@
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	  
 	  <!--Import Custom Styles-->
 	  <link type="text/css" rel="stylesheet" href="css/custom-styles.css"/>
@@ -26,21 +28,21 @@
 		var options = [
 		  {
 		    selector: '#learnt-here', 
-		    offset: 50, 
+		    offset: 100, 
 		    callback: function() {
 		    	$('.carousel').carousel('set',1);
 		    }
 		  },
 		  {
 		    selector: '#reco', 
-		    offset: 50, 
+		    offset: 100, 
 		    callback: function() {
 		    	$('.carousel').carousel('set',2);
 		    }
 		  },
 		  {
 		    selector: '#docs', 
-		    offset: 50, 
+		    offset: 100, 
 		    callback: function() {
 		    	$('.carousel').carousel('set',3);
 		    }
@@ -65,9 +67,12 @@
 	    <br>
 		<br>
 		<br>
+
+		<div class="hide-on-med-and-down">
 		<br>
 		<br>
 		<br>
+		</div>
 		  
 	    <div style="position:fixed; z-index:998; bottom: 40px; right: 40px;">
 	      <a href="./index.html" class="btn-floating btn-large waves-effect waves-light red">
