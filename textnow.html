@@ -18,47 +18,19 @@
 	  <!-- Compiled and minified JavaScript -->
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
+	  <!-- Slick Carousel -->
+	  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+	  <script type="text/javascript" src="js/jquery.scrollfire.min.js"></script>
+	  <script type="text/javascript" src="js/custom.js"></script>
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <title>Xyan Bhatnagar - TextNow</title>
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    <script>
-		var options = [
-		  {
-		    selector: '#learnt-here', 
-		    offset: 100, 
-		    callback: function() {
-		    	$('.carousel').carousel('set',1);
-		    }
-		  },
-		  {
-		    selector: '#reco', 
-		    offset: 100, 
-		    callback: function() {
-		    	$('.carousel').carousel('set',2);
-		    }
-		  },
-		  {
-		    selector: '#docs', 
-		    offset: 100, 
-		    callback: function() {
-		    	$('.carousel').carousel('set',3);
-		    }
-		  }
-		];
-
-  		Materialize.scrollFire(options);
-
-  		$(document).ready(function(){
-      		$('.carousel.carousel-slider').carousel(
-      			{
-      				full_width: true,
-      				no_wrap: true
-      			});
-    	});
-    </script>
 
     </head>
 
@@ -82,19 +54,19 @@
 
 	    <div class="phone hide-on-med-and-down">
 			<img src="img/nexus5.png" width="100%" class="phone-frame" id="phone-frame">
-			<div class="screen carousel carousel-slider" style="width: 93%">
-		    	<a class="carousel-item"><img src="img/screen1.jpg" class="screen-inner"></a>
-		    	<a class="carousel-item"><img src="img/screen2.jpg" class="screen-inner"></a>
-		    	<a class="carousel-item"><img src="img/screen3.jpg" class="screen-inner"></a>
-		    	<a class="carousel-item"><img src="img/screen4.jpg" class="screen-inner"></a>
-		    	<a class="carousel-item"><img src="img/screen5.jpg" class="screen-inner"></a>
-		    	<a class="carousel-item"><img src="img/screen6.jpg" class="screen-inner"></a>
+			<div class="screen slickcarousel">
+		    	<div><img src="img/screen1.jpg" width="100%"></div>
+		    	<div><img src="img/screen2.jpg" width="100%"></div>
+		    	<div><img src="img/screen3.jpg" width="100%"></div>
+		    	<div><img src="img/screen4.jpg" width="100%"></div>
+		    	<div><img src="img/screen5.jpg" width="100%"></div>
+		    	<div><img src="img/screen6.jpg" width="100%"></div>
 		    </div>
 		</div>
 		  
 		<div class="row">
 	      <div class="col s12 m10 push-m1 l6 push-l1">
-	        <div class="card-panel green hoverable">
+	        <div class="card-panel green hoverable" id="textnow">
 	          <span class="white-text">
 	        		<h4><font face="roboto-thin">At TextNow, I ...</font></h4>
 	            	<blockquote>Rewrote the HTTP Stack for the application</blockquote>
@@ -118,7 +90,7 @@
 
 	    <div class="row">
 	      <div class="col s12 m10 push-m1 l6 push-l1">
-	        <div class="card-panel purple hoverable">
+	        <div class="card-panel purple hoverable" id="learnt-here">
 	          <span class="white-text">
 	            <h4><font face="roboto-thin">Learnt here<span class="blinking-cursor">_</span></font></h4>
 	            <font face="roboto">
@@ -135,7 +107,8 @@
 	              <div class="chip">Stock Market</div>
 	            </div>
 	            </font>
-	            <br>and several more tricks!<br id="learnt-here">
+	            <br>and several more tricks!
+	            <br>
 	          </span>
 	        </div>
 	      </div>
@@ -147,7 +120,7 @@
 
 		<div class="row">
 	      <div class="col s12 m10 push-m1 l6 push-l1">
-	        <div class="card-panel blue hoverable">
+	        <div class="card-panel blue hoverable" id="reco">
 	          <span class="white-text">
 	        		<h4><font face="roboto-thin">Recommendations</font></h4>
 	            	Bruce Wayne
@@ -164,7 +137,7 @@
 	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
 	            	I have enjoyed working with XYZ. It has been fun having him around the office.
 	            	<br>
-	            	<br id="reco">
+	            	<br>
 	          </span>
 	        </div>
 	      </div>
@@ -176,7 +149,7 @@
 
 		<div class="row">
 	      <div class="col s12 m10 push-m1 l6 push-l1">
-	        <div class="card-panel red hoverable">
+	        <div class="card-panel red hoverable" id="docs">
 	          <span class="white-text">
 	        		<h4><font face="roboto-thin">Documentation</font></h4>
 	            	Bruce Wayne
@@ -193,7 +166,7 @@
 	            	<br><font face="roboto-thin"><i class="tiny material-icons">android</i> Android Developer<br></font>
 	            	I have enjoyed working with XYZ. It has been fun having him around the office.
 	            	<br>
-	            	<br id="docs">
+	            	<br>
 	          </span>
 	        </div>
 	      </div>
@@ -202,7 +175,13 @@
 	    <br>
 		<br>
 		<br>
-
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+ 
 	</font>
     </body>
   </html>
