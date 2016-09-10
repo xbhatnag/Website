@@ -16,6 +16,9 @@ $(document).ready(function(){
 	    var docsTop = $('#docs').offset().top;
 	    var docsHeight = $('#docs').height();
 
+	    var pic1Top = $('#pic1').offset().top;
+	    var pic1Height = $('#pic1').height();
+
 	    var windowTop = $(window).height() / 3;
 	    var windowBottom = windowTop * 2;
 
@@ -31,6 +34,9 @@ $(document).ready(function(){
 
 	    	docsTop = $('#docs').offset().top;
 	    	docsHeight = $('#docs').height();
+
+	    	pic1Top = $('#pic1').offset().top;
+	    	pic1Height = $('#pic1').height();
 
 	    	windowTop = $(window).height() / 5;
 	    	windowBottom = windowTop * 4;
@@ -48,6 +54,9 @@ $(document).ready(function(){
 	    	}
 	    	if (isInView(calcPosition(calcCenter(docsTop, docsHeight)))) {
 	    		$('.slickcarousel').slick('slickGoTo',3);
+	    	}
+	    	if (isInView(calcPosition(calcCenter(pic1Top, pic1Height)))) {
+	    		$('.slickcarousel').slick('slickGoTo',4);
 	    	}
 	    })
 
