@@ -16,24 +16,45 @@
   ga('send', 'pageview');
 
 </script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Person",
-  "name": "Xyan Bhatnagar",
-  "jobTitle": "Computer Science Undergrad",
-  "telephone": "(226) 606-3357",
-  "email": "xbhatnag@uwaterloo.ca",
-  "url": "https://xbhatnag.com",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "xbhatnag@uwaterloo.ca",
-    "telephone": "+1-226-606-3357",
-    "contactType": "Official"
-  }
-  "description": "Xyan Bhatnagar is a third year Computer Science undergraduate at the University of Waterloo. He has interned at Google and TextNow. He has experience in Java, C++ and Python."
+<style>
+div.link {
+width: 12%;
+height: 0;
+padding-top: 6%;
+display: inline-block;
 }
-</script>
+#resume {
+background: url("img/main/resume.jpg") center/contain no-repeat;
+}
+#resume:hover {
+background: url("img/main/resume-mo.jpg") center/contain no-repeat;
+}
+#github {
+background: url("img/main/github.jpg") center/contain no-repeat;
+}
+#github:hover {
+background: url("img/main/github-mo.jpg") center/contain no-repeat;
+}
+#linkedin {
+background: url("img/main/linkedin.jpg") center/contain no-repeat;
+}
+#linkedin:hover {
+background: url("img/main/linkedin-mo.jpg") center/contain no-repeat;
+}
+#medium {
+background: url("img/main/medium.jpg") center/contain no-repeat;
+}
+#medium:hover {
+background: url("img/main/medium-mo.jpg") center/contain no-repeat;
+}
+#music {
+width: 24%;
+background: url("img/main/music.jpg") center/contain no-repeat;
+}
+#music:hover {
+background: url("img/main/music-mo.jpg") center/contain no-repeat;
+}
+</style>
 <style>
 @media only screen (-moz-min-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
@@ -42,38 +63,41 @@ only screen and (min-device-pixel-ratio: 2) {
 img.page {
 width: 100%
 }
-img.link {
+img.sign {
 width: 24%
 }
-img.music {
-width: 50%
+div.link {
+width: 24%;
+padding-top: 12%;
 }
+#music {
+width: 50%
 }
 </style>
 </head>
 <body>
 <center>
-<img class="page" src="img/page (1).jpg" width="50%" alt="Xyan Bhatnagar. Computer Science Student @ University of Waterloo">
+<img class="page" src="img/main/page (1).jpg" width="50%" alt="Xyan Bhatnagar. Computer Science Student @ University of Waterloo">
 <br>
 <span>
-<a href="https://resume.xbhatnag.com" style="text-decoration:none">
-<img class="link" src="img/resume.jpg" width="12%" alt="Resume" onmouseover="this.src = 'img/resume-mo.jpg'" onmouseout="this.src = 'img/resume.jpg'">
+<a href="resume.html" style="text-decoration:none" title="Resume">
+<div class="link" id="resume"></div>
 </a>
-<a href="https://github.xbhatnag.com" style="text-decoration:none">
-<img class="link" src="img/github.jpg" width="12%" alt="GitHub" onmouseover="this.src = 'img/github-mo.jpg'" onmouseout="this.src = 'img/github.jpg'">
+<a href="github.html" style="text-decoration:none" title="Github">
+<div class="link" id="github"></div>
 </a>
-<a href="https://linkedin.xbhatnag.com" style="text-decoration:none">
-<img class="link" src="img/linkedin.jpg" width="12%" alt="LinkedIn" onmouseover="this.src = 'img/linkedin-mo.jpg'" onmouseout="this.src = 'img/linkedin.jpg'">
+<a href="linkedin.html" style="text-decoration:none" title="LinkedIn">
+<div class="link" id="linkedin"></div>
 </a>
-<a href="https://medium.xbhatnag.com" style="text-decoration:none">
-<img class="link" src="img/medium.jpg" width="12%" alt="Medium" onmouseover="this.src = 'img/medium-mo.jpg'" onmouseout="this.src = 'img/medium.jpg'">
+<a href="medium.html" style="text-decoration:none">
+<div class="link" id="medium"></div>
 </a>
 </span>
 <br>
-<img class="page" src="img/page (2).jpg" width="50%" alt="Hi!
+<img class="page" src="img/main/page (2).jpg" width="50%" alt="Hi!
 I'm a third year student enrolled at the University of Waterloo, in the Computer Science Co-op program.
 I've previously interned at amazing companies like Google and TextNow.">
-<img class="page" src="img/page (3).jpg" width="50%" alt="Timeline.
+<img class="page" src="img/main/page (3).jpg" width="50%" alt="Timeline.
 Present: Software Engineering Intern, Android UI Toolkit Team, Google.
 Summer 2017: Term 2B @ UWaterloo.
 Winter 2017: Software Engineering Intern, Internal Infrastructure Team, Google.
@@ -81,19 +105,19 @@ Fall 2016: Term 2A @ UWaterloo.
 Summer 2016: Android Developer Intern, Growth Team, Google.
 Winter 2016: Term 1B @ UWaterloo.
 Fall 2015: Term 1A @ UWaterloo.">
-<img class="page" src="img/page (4).jpg" width="50%" alt="Skills: Android, Java, C++, Python, SQL">
+<img class="page" src="img/main/page (4).jpg" width="50%" alt="Skills: Android, Java, C++, Python, SQL">
 <br>
-<img class="page" src="img/page (5).jpg" width="50%" alt="'Musicians are the loud voice for quiet hearts.' - Billy Joel">
+<img class="page" src="img/main/page (5).jpg" width="50%" alt="'Musicians are the loud voice for quiet hearts.' - Billy Joel">
 <br>
-<a href="https://music.xbhatnag.com" style="text-decoration:none">
-<img class="music" src="img/music.jpg" width="24%" alt="See my top songs" onmouseover="this.src = 'img/music-mo.jpg'" onmouseout="this.src = 'img/music.jpg'">
+<a href="music.html" style="text-decoration:none">
+<div class="link" id="music"></div>
 </a>
 <br>
 <br>
 <br>
-<img class="link" src="img/sign.gif" width="12%" alt="Signature">
+<img class="sign" src="img/main/sign.gif" width="12%" alt="Signature">
 <br>
-<img class="page" src="img/drawn.jpg" width="50%" alt="Drawn with love at UWaterloo">
+<img class="page" src="img/main/drawn.jpg" width="50%" alt="Drawn with love at UWaterloo">
 </center>
 </body>
 </html>
