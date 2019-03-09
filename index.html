@@ -23,31 +23,27 @@ height: 0;
 padding-top: 6%;
 display: inline-block;
 }
-#resume {
-background: url("img/main/resume.jpg") center/contain no-repeat;
-}
-#resume:hover {
-background: url("img/main/resume-mo.jpg") center/contain no-repeat;
-}
-#github {
-background: url("img/main/github.jpg") center/contain no-repeat;
-}
-#github:hover {
-background: url("img/main/github-mo.jpg") center/contain no-repeat;
-}
-#linkedin {
-background: url("img/main/linkedin.jpg") center/contain no-repeat;
-}
-#linkedin:hover {
-background: url("img/main/linkedin-mo.jpg") center/contain no-repeat;
-}
-#music {
-width: 24%;
-background: url("img/main/music.jpg") center/contain no-repeat;
-}
-#music:hover {
-background: url("img/main/music-mo.jpg") center/contain no-repeat;
-}
+
+#resume, #resume:hover
+{ background: url('img/main/resume.jpg'); background-size: 100%;}
+#resume { background-position: 0 0; }
+#resume:hover { background-position: 0 97.5%; }
+
+#github, #github:hover
+{ background: url('img/main/github.jpg'); background-size: 100%;}
+#github { background-position: 0 0; }
+#github:hover { background-position: 0 97.5%; }
+
+#linkedin, #linkedin:hover
+{ background: url('img/main/linkedin.jpg'); background-size: 100%;}
+#linkedin { background-position: 0 0; }
+#linkedin:hover { background-position: 0 99%; }
+
+#music, #music:hover
+{ background: url('img/main/music.jpg'); background-size: 100%; width: 14.75%; }
+#music { background-position: 0 0; }
+#music:hover { background-position: 0 97.5%; }
+
 </style>
 <style>
 @media only screen and (orientation: portrait) {
@@ -61,8 +57,8 @@ div.link {
 width: 24%;
 padding-top: 12%;
 }
-#music {
-width: 50%
+#music, #music:hover {
+width: 29.5%
 }
 </style>
 </head>
