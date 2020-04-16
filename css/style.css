@@ -1,0 +1,82 @@
+/* FONTS */
+h1 {
+	font-family: 'Comfortaa', cursive;
+}
+
+#quote {
+	font-family: 'Caveat', cursive;
+	color: #000000a0;
+}
+
+body {
+	font-size: large;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media(min-width: 1000px) {
+	body {
+		font-size: x-large;
+	}
+}
+
+@media(min-width: 1800px) {
+	body {
+		font-size: xx-large;
+	}
+}
+
+/* SIZES AND MARGINS */
+h1, h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body {
+	margin: 3em;
+}
+
+#sign {
+	height: 4em;
+}
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+}
+
+.fa-button {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	opacity: 0.5;
+	margin-right: 1em;
+}
+
+.fa-button:hover {
+	opacity: 1;
+}
+
+.fa-spotify {
+	color: #1CCF5D;
+}
+
+.fa-github {
+	color: #444444;
+}
+
+.fa-linkedin {
+	color: #0077B5;
+}
+
+.fa-at {
+	color: #F7AD00;
+}
+
+.fa-file-pdf {
+	color: #D3040C;
+}
+
+.fa-images {
+	color: #6236FF;
+}
