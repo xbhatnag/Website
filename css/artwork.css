@@ -1,0 +1,116 @@
+/* FONTS */
+h1 {
+	font-family: 'Comfortaa', cursive;
+}
+
+#quote {
+	font-family: 'Caveat', cursive;
+	color: #000000a0;
+}
+
+body {
+	font-size: large;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media(min-width: 1000px) {
+	body {
+		font-size: x-large;
+	}
+}
+
+@media(min-width: 1800px) {
+	body {
+		font-size: xx-large;
+	}
+}
+
+/* SIZES AND MARGINS */
+h1, h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body {
+	margin: 3em;
+}
+
+row {
+	display: flex;
+}
+
+row.narrow {
+	width: 50%;
+}
+
+.artwork {
+	width: 100%;
+	height: auto;
+}
+
+.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border {
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: white;
+}
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+}
+
+
+/* CARD FLIPPING */
+/* Borrowed from David Walsh */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+ -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+ -webkit-transition: 0.6s;
+         transition: 0.6s;
+ -webkit-transform-style: preserve-3d;
+         transform-style: preserve-3d;
+ position: absolute;
+ top: 0;
+ left: 0;
+ }
+
+ /*  UPDATED! front pane, placed above back */
+.front {
+ z-index: 2;
+ -webkit-transform: rotateY(0deg);
+         transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+ -webkit-transform: rotateY(-180deg);
+         transform: rotateY(-180deg);
+}
