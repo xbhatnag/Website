@@ -1,7 +1,7 @@
 # Walbrek the Fourth
 
 > [!NOTE]
-> This is the backstory of a D&D character I'm working for a new campaign, inspired by my love of mockumentaries, 4th wall gags, comedy shows and movies.
+> This is the backstory of a D&D character I'm working for a new campaign, inspired by my love of mockumentaries, 4th wall gags, comedy shows and movies. I put it on Github to record it, but feedback is welcome :)
 
 Walbrek was a sheltered child growing up. Her parents wanted her to become a scholar, just like them, and they held a tight and brutal control over her life in pursuit of that mission. She followed a strict schedule from the second she could walk, with most of her time devoted to education. There was no time allotted for play or amusement because to them, it served no purpose.
 
